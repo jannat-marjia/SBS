@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <div
+      <!-- <div
         class="flex justify-between w-[90vw] m-[auto] items-center pt-6 text-lg"
       >
         <div>
@@ -31,25 +31,25 @@
           <i class="fa-solid fa-user mr-14"></i>
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-      </div>
+      </div> -->
       <div>
-        <div class="flex items-center justify-around">
-          <div class="text-8xl font-bold text-gray-900">
+        <div class="lg:flex items-center justify-around">
+          <div class="sm:text-7xl lg:text-8xl  font-bold text-gray-900">
             <img
-              class="mt-16 mb-16 ml-18"
+              class="mt-16 mb-16 ml-18 sm:h-48 lg:h-full"
               src="images/images/top_icon.png"
               alt=""
             />
-            <p>
+            <p class="sm:w-[50vw] text-center">
               Skating<br />
               Board<br />
               School
             </p>
-            <p class="text-lg font-bold mt-8 text-gray-900">READ MORE</p>
+            <p class="text-lg text-center font-bold mt-8 text-gray-900">READ MORE</p>
           </div>
 
           <div class="">
-            <img class="w-[55vw]" src="images/images/banner_img.png" alt="" />
+            <img class="w-[55vw] mx-auto" src="images/images/banner_img.png" alt="" />
           </div>
         </div>
       </div>
@@ -63,9 +63,10 @@
           There are many variations of passages of Lorem
         </p>
       </div>
-      <div class="flex justify-center gap-10 mt-10 mb-10">
-        <div
-          class="border bg-orange-700 w-[25vw] h-[60vh] text-center text-white rounded-xl"
+      <div class="lg:flex justify-center gap-10 w-full mt-10 mb-10 border">
+        <div>
+          <div
+          class="border p-4 bg-orange-700 sm:w-[40vw] lg:w-[25vw] sm:h-[40vh] lg:h-[60vh] text-center text-white rounded-xl"
         >
           <img
             class="w-[5vw] m-auto mt-6 mb-6"
@@ -81,25 +82,33 @@
             many variations
           </p>
         </div>
-        <div
-          class="border bg-blue-800 w-[25vw] h-[60vh] text-center text-white rounded-xl"
-        >
-          <img
-            class="w-[5vw] m-auto mt-6 mb-6"
-            src="images/images/class2.png"
-            alt=""
-          />
-          <p class="text-3xl font-semibold mt-6 mb-6">Skateboard</p>
-          <p class="text-xl font-normal">
-            There are many variations of<br />
-            passages of Lorem Ipsum<br />
-            available, but the majority have<br />
-            suffered alterationThere are<br />
-            many variations
-          </p>
+        <div><p class="text-black font-bold text-center py-6">READ MORE</p></div>
         </div>
+       
+        
+       <div>
         <div
-          class="border bg-orange-700 w-[25vw] h-[60vh] text-center text-white rounded-xl"
+        class=" p-4 bg-blue-700 sm:w-[10vw] lg:w-[25vw] sm:h-[40vh] lg:h-[60vh] text-center text-white rounded-xl"
+      >
+        <img
+          class="w-[5vw] m-auto mt-6 mb-6"
+          src="images/images/class2.png"
+          alt=""
+        />
+        <p class="text-3xl font-semibold mt-6 mb-6">Skateboard</p>
+        <p class="text-xl font-normal">
+          There are many variations of<br />
+          passages of Lorem Ipsum<br />
+          available, but the majority have<br />
+          suffered alterationThere are<br />
+          many variations
+        </p>
+      </div>
+      <div><p class="text-black font-bold text-center py-6">READ MORE</p></div>
+       </div>
+        <div>
+          <div
+          class="border p-4 bg-orange-700 sm:w-[40vw] lg:w-[25vw] sm:h-[40vh] lg:h-[60vh] text-center text-white rounded-xl"
         >
           <img
             class="w-[5vw] m-auto mt-6 mb-6"
@@ -115,22 +124,20 @@
             many variations
           </p>
         </div>
+        <div><p class="text-black font-bold text-center py-6">READ MORE</p></div>
+        </div>
       </div>
-      <div class="flex justify-around font-bold text-gray-600">
-        <div><p class="text-black">READ MORE</p></div>
-        <div><p class="text-black">READ MORE</p></div>
-        <div><p class="text-black">READ MORE</p></div>
-      </div>
+    
       <div
-        class="bg-[url(./images/images/about_bg.jpg)] w-[full] h-[650px] bg-cover bg-no-repeat bg-zinc-700 flex items-center justify-center mt-10 mb-10"
+        class="bg-[url(./images/images/about_bg.jpg)] w-[full] lg:h-[650px] bg-cover bg-no-repeat  lg:flex items-center justify-center mt-10 mb-10"
       >
         <div class="text-white">
-          <p class="text-5xl font-bold mt-4 mb-4">
+          <p class="text-5xl text-center lg:text-start py-6 font-bold mt-4 mb-4">
             About <br />
             Skating <br />
             school
           </p>
-          <p class="text-xl font-semibold mt-4 mb-4">
+          <p class="text-xl text-center lg:text-start text-justify font-semibold mt-4 mb-4">
             There are many variations of passages of Lorem Ipsum available,<br />
             but the majority have suffered alterationThere are many
             <br />variatioThere are many variations of passages of Lorem
@@ -141,9 +148,10 @@
           <p class="font-bold">READ MORE</p>
         </div>
         <div>
-          <img class="w-[45vw] mt-10" src="images/images/about.png" alt="" />
+          <img class="lg:w-[45vw] mx-auto mt-10" src="images/images/about.png" alt="" />
         </div>
       </div>
+
       <div class="text-center mt-6 mb-6">
         <p class="text-5xl font-bold mt-4 mb-4">Skating Video</p>
         <p class="text-gray-600">
@@ -151,15 +159,15 @@
           the majority have suffered
         </p>
       </div>
-      <div class="flex justify-around mt-8 mb-8">
-        <div>
-          <img src="images/images/sakt1.png" alt="" />
+      <div class="lg:flex justify-around mb-8 text-center">
+        <div class="">
+          <img class="sm:w-[50vw] mx-auto lg:mx-0 lg:w-[25vw]" src="images/images/sakt1.png" alt="" />
         </div>
         <div>
-          <img src="images/images/sakt2.png" alt="" />
+          <img class="sm:w-[50vw] mx-auto lg:mx-0 lg:w-[25vw]" src="images/images/sakt2.png" alt="" />
         </div>
         <div>
-          <img src="images/images/sakt3.png" alt="" />
+          <img class="sm:w-[50vw] mx-auto lg:mx-0 lg:w-[25vw]" src="images/images/sakt3.png" alt="" />
         </div>
       </div>
       <div class="flex justify-around text-xl font-semibold">
@@ -167,7 +175,8 @@
         <div><p>SEE MORE</p></div>
         <div><p>SEE MORE</p></div>
       </div>
-      <div class="flex items-center justify-center gap-10 mt-10 mb-10">
+
+      <div class="lg:flex items-center justify-center gap-10 mt-10 mb-10">
         <div>
           <img class="w-[45vw]" src="images/images/shop.png" alt="" />
         </div>
